@@ -3,7 +3,7 @@ pragma solidity >=0.8.4 <0.9.0;
 
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "./fullgamechatgptbien.sol";
+import "./betapp.sol";
 
 contract NFTmarket is ERC721Enumerable, Ownable {
     using Strings for uint256;
